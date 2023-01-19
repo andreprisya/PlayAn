@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/union"
+        android:elevation="100dp"
+        />
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:textSize="20dp"
+        android:onClick="berandaToAwal"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/grey_dark"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/txProfile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/profile"/>
+
+    <TextView
+        android:id="@+id/txUsername"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toLeftOf="@+id/txProfile"/>
+
+    <!--Level 2-->
+    <Button
+        android:id="@+id/btnLevel1bg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnLevel1"
+        android:layout_width="290dp"
+        android:layout_height="90dp"
+        android:text="Level 1"
+        android:onClick="berandaToLevel"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="105dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baby2"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <ImageView
+        android:id="@+id/txIconLevel1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginLeft="90dp"
+        android:src="@drawable/baby2"
+        android:elevation="100dp"/>
+
+
+    <!--Level 2-->
+    <Button
+        android:id="@+id/btnLevel2bg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/btnLevel1bg"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnLevel2"
+        android:layout_width="290dp"
+        android:layout_height="90dp"
+        android:text="Level 2"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:layout_below="@+id/btnLevel1"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baby2"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <ImageView
+        android:id="@+id/txIconLevel2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@id/txIconLevel1"
+        android:layout_marginLeft="90dp"
+        android:src="@drawable/baby2"
+        android:elevation="100dp"
+        android:alpha="0.5"/>
+
+    <ImageView
+        android:id="@+id/txIconGembokLevel2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="83dp"
+        android:layout_toRightOf="@id/txIconLevel2"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@id/txIconLevel1"
+        android:src="@drawable/gembok"
+        android:elevation="100dp"
+        android:alpha="0.5"/>
+
+    <!--Level 3-->
+    <Button
+        android:id="@+id/btnLevel3bg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/btnLevel2bg"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnLevel3"
+        android:layout_width="290dp"
+        android:layout_height="90dp"
+        android:text="Level 3"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:layout_below="@+id/btnLevel2"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baby2"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <ImageView
+        android:id="@+id/txIconLevel3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@id/txIconLevel2"
+        android:layout_marginLeft="90dp"
+        android:src="@drawable/baby2"
+        android:elevation="100dp"
+        android:alpha="0.5"/>
+
+    <ImageView
+        android:id="@+id/txIconGembokLevel3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="83dp"
+        android:layout_toRightOf="@id/txIconLevel2"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@id/txIconLevel2"
+        android:src="@drawable/gembok"
+        android:elevation="100dp"
+        android:alpha="0.5"/>
+
+    <!--Level 4-->
+    <Button
+        android:id="@+id/btnLevel4bg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/btnLevel3bg"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnLevel4"
+        android:layout_width="290dp"
+        android:layout_height="90dp"
+        android:text="Level 4"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:layout_below="@+id/btnLevel3"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baby2"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <ImageView
+        android:id="@+id/txIconLevel4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@id/txIconLevel3"
+        android:layout_marginLeft="90dp"
+        android:src="@drawable/baby2"
+        android:elevation="100dp"
+        android:alpha="0.5"/>
+
+    <ImageView
+        android:id="@+id/txIconGembokLevel4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="83dp"
+        android:layout_toRightOf="@id/txIconLevel3"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@id/txIconLevel3"
+        android:src="@drawable/gembok"
+        android:elevation="100dp"
+        android:alpha="0.5"/>
+
+    <!--Level 4-->
+    <Button
+        android:id="@+id/btnLevel5bg"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_below="@id/btnLevel4bg"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnLevel5"
+        android:layout_width="290dp"
+        android:layout_height="90dp"
+        android:text="Level 5"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:layout_below="@+id/btnLevel4"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baby2"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <ImageView
+        android:id="@+id/txIconLevel5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@id/txIconLevel4"
+        android:layout_marginLeft="90dp"
+        android:src="@drawable/baby2"
+        android:elevation="100dp"
+        android:alpha="0.5"/>
+
+    <ImageView
+        android:id="@+id/txIconGembokLevel5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="83dp"
+        android:layout_toRightOf="@id/txIconLevel4"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@id/txIconLevel4"
+        android:src="@drawable/gembok"
+        android:elevation="100dp"
+        android:alpha="0.5"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="180dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginTop="699dp"
+        android:src="@drawable/ellipse" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:rotation="90"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginTop="699dp"
+        android:src="@drawable/ellipse" />
+
+
+</RelativeLayout>

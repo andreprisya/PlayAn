@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1059866080548",
+    "firebase_url": "https://belajarfirebase-220dd-default-rtdb.firebaseio.com",
+    "project_id": "belajarfirebase-220dd",
+    "storage_bucket": "belajarfirebase-220dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059866080548:android:483802250b4ad4e267afb1",
+        "android_client_info": {
+          "package_name": "com.example.belajarfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059866080548-vk7t96d1od758amgo5jgropjgpq025of.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF2c_lOEDPyhV7u-Eu4IeXnUk_Pmbh07k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059866080548-vk7t96d1od758amgo5jgropjgpq025of.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059866080548:android:6ace972da15e044767afb1",
+        "android_client_info": {
+          "package_name": "com.example.playan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059866080548-vk7t96d1od758amgo5jgropjgpq025of.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF2c_lOEDPyhV7u-Eu4IeXnUk_Pmbh07k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059866080548-vk7t96d1od758amgo5jgropjgpq025of.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="600dp"
+    android:background="@color/black_grey">
+
+    <ImageView
+        android:id="@+id/txBaby"
+        android:src="@drawable/baby4"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/black_grey"
+        />
+
+    <TextView
+        android:id="@+id/txJudul"
+        android:text="Perhatikan!"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txBaby"/>
+
+    <TextView
+        android:id="@+id/txInfo"
+        android:text="1. Brow akan diberikan clue"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txJudul"
+        android:elevation="100dp"/>
+
+    <TextView
+        android:id="@+id/txInfo2"
+        android:text="2. Brow diberikan beberapa gambar"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txInfo"
+        android:elevation="100dp"/>
+
+    <TextView
+        android:id="@+id/txInfo3"
+        android:text="3. Brow mencocokkan antara "
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txInfo2"
+        android:elevation="100dp"/>
+
+    <TextView
+        android:id="@+id/txInfo4"
+        android:text="gambar dengan clue"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txInfo3"
+        android:elevation="100dp"/>
+
+    <Button
+        android:id="@+id/btnJawabbg"
+        android:layout_width="350dp"
+        android:layout_height="190dp"
+        android:textSize="20sp"
+        android:textColor="@color/grey_dark"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:layout_below="@id/txJudul"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnJawab"
+        android:layout_width="340dp"
+        android:layout_height="180dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baby2"
+        android:layout_below="@id/txJudul"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>

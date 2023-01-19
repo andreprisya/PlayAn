@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="550dp"
+    android:background="@color/black_grey">
+
+    <ImageView
+        android:id="@+id/txBaby"
+        android:src="@drawable/baby1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/black_grey"
+        />
+
+    <TextView
+        android:id="@+id/txJudul"
+        android:text="Yakin untuk reset?"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txBaby"/>
+
+    <Button
+        android:id="@+id/btnYakin"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Yakin"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_below="@id/txJudul"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnBatal"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Batal"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_below="@id/txJudul"
+        android:layout_toRightOf="@id/btnYakin"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

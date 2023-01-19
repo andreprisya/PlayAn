@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="550dp"
+    android:background="@color/black_grey">
+
+    <ImageView
+        android:id="@+id/txBaby"
+        android:src="@drawable/baby3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/black_grey"
+        />
+
+    <TextView
+        android:id="@+id/txJudul"
+        android:text="Sebentar..."
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txBaby"/>
+
+    <EditText
+        android:layout_width="345dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/txJudul"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:elevation="100dp"
+        android:textColor="@color/white"
+        android:id="@+id/edtUsername"
+        android:hint="Inputkan username disini"
+        android:textColorHint="@color/grey"
+        />
+
+    <Button
+        android:id="@+id/btnJawabbg"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:textColor="@color/grey_dark"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:layout_below="@id/txJudul"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnJawab"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baby2"
+        android:layout_below="@id/txJudul"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnMulai"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text="Mulai"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_below="@id/btnJawabbg"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"/>
+
+
+
+</RelativeLayout>

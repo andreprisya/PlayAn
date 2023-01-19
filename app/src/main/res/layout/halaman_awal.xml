@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+
+    <ImageView
+        android:id="@+id/txPlay"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/judul"/>
+
+    <ImageView
+        android:id="@+id/txBaby"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baby1"
+        android:layout_below="@id/txPlay"/>
+
+    <TextView
+        android:id="@+id/txJudul"
+        android:text="Ayo selesaikan tebakan ini\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tbrow!"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txBaby"/>
+
+    <Button
+        android:id="@+id/btnLanjutkan"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Lanjutkan ->"
+        android:textSize="20sp"
+        android:onClick="awalToBeranda"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_below="@id/txJudul"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Reset"
+        android:onClick="dialogReset"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_below="@id/btnLanjutkan"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

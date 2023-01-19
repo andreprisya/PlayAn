@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="500dp"
+    android:background="@color/black_grey">
+
+    <ImageView
+        android:id="@+id/txBackground"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_centerVertical="true"
+        android:background="@color/black_grey"
+        android:src="@drawable/backbubble" />
+
+    <ImageView
+        android:id="@+id/txBaby"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/baby6" />
+
+    <TextView
+        android:id="@+id/txJudul"
+        android:text="Selamat, Jawabannya"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txBaby"/>
+
+    <TextView
+        android:id="@+id/txInfo"
+        android:text="Benar!"
+        android:textColor="@color/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txJudul"
+        android:elevation="100dp"/>
+
+    <TextView
+        android:id="@+id/txInfo2"
+        android:text="+"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txInfo"
+        android:elevation="100dp"/>
+
+    <ImageView
+        android:id="@+id/txProfile"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/txInfo"
+        android:layout_marginLeft="183dp"
+        android:src="@drawable/star"
+        android:elevation="100dp"/>
+
+    <TextView
+        android:id="@+id/txInfo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txInfo"
+        android:layout_marginLeft="25dp"
+
+        android:layout_toRightOf="@id/txInfo2"
+        android:elevation="1000dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="5"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

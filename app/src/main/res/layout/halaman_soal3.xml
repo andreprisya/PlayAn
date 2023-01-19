@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/union"
+        android:elevation="100dp"
+        />
+
+    <Button
+        android:id="@+id/btnKembali"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:textSize="20dp"
+        android:onClick="berandaToLevel"
+        android:textColor="@color/grey_dark"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/grey_dark"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/txProfile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/star"/>
+
+    <TextView
+        android:id="@+id/txPoint"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_bold"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="370dp"
+        />
+
+    <TextView
+        android:id="@+id/txUsername"
+        android:text="Soal 3"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_bold"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="80dp"
+        android:layout_toLeftOf="@+id/txProfile"/>
+
+    <!--Level 1-->
+    <Button
+        android:id="@+id/btnLevel1bg"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:textColor="@color/grey_dark"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnLevel1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Penyanyi di Indonesia"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="105dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baby2"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <!--Level 1-->
+    <Button
+        android:id="@+id/btnSoalbg"
+        android:layout_width="340dp"
+        android:layout_height="300dp"
+        android:textSize="20sp"
+        android:textColor="@color/grey_dark"
+        android:layout_marginTop="190dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnSoal"
+        android:layout_width="330dp"
+        android:layout_height="290dp"
+        android:text=""
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="195dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baby2"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <ImageView
+        android:id="@+id/soal11"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnLevel1"
+        android:src="@drawable/soal3_1"
+        android:elevation="100dp"/>
+
+    <ImageView
+        android:id="@+id/soal12"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/soal11"
+        android:src="@drawable/lose"
+        android:elevation="100dp"/>
+
+    <Button
+        android:id="@+id/btnBantuan"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Bantuan        10"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_below="@id/btnSoal"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/red"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/txStar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="150dp"
+        android:layout_below="@id/btnSoal"
+        android:src="@drawable/star"
+        android:elevation="100dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btnBantuan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:elevation="100dp"
+        android:id="@+id/edtJawaban"
+        android:textColor="@color/white"
+        android:hint="Ketikkan Jawabanmu disini..."
+        android:textColorHint="@color/grey"
+        />
+
+    <Button
+        android:id="@+id/btnJawabbg"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:textSize="20sp"
+        android:textColor="@color/grey_dark"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:layout_below="@id/btnBantuan"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnJawab"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/baby2"
+        android:layout_below="@id/btnBantuan"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/btnCek"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Cek"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_below="@id/btnJawab"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>

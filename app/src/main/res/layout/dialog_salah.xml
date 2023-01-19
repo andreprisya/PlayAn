@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="500dp"
+    android:background="@color/black_grey">
+
+    <ImageView
+        android:id="@+id/txBackground"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_centerVertical="true"
+        android:background="@color/black_grey"
+        android:src="@drawable/backbubble" />
+
+    <ImageView
+        android:id="@+id/txBaby"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/baby5" />
+
+    <TextView
+        android:id="@+id/txJudul"
+        android:text="Yah, Jawabannya"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txBaby"/>
+
+    <TextView
+        android:id="@+id/txInfo"
+        android:text="Salah..."
+        android:textColor="@color/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txJudul"
+        android:elevation="100dp"/>
+
+
+
+
+
+</RelativeLayout>
